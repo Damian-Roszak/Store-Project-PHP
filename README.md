@@ -1,2 +1,2 @@
 # Store-Project-PHP
-No pics belong to me, use on your own responsibility
+Project of store in PHP, basic functionality, login to improve
