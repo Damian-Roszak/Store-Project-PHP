@@ -1,0 +1,16 @@
+body{
+    padding: 5px;
+    margin: 0px;
+    background-color: white;
+    font-family: arial;
+    font-size: 2vh;
+}
+a{
+    color: black;
+}
+#producer{
+    width: 99%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}

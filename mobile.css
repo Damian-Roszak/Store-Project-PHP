@@ -1,0 +1,258 @@
+
+@media only screen and (max-width: 523px)
+{
+#top{
+    width: 100%;
+    height: 3%;
+}
+#top a{
+    text-decoration: none;
+}
+#top-at-right{
+    position: absolute;
+    right: 5px;
+    padding: 7px;
+}
+#kontakt{
+    position: absolute;
+    padding-left: 10px;
+    border: 7px solid white;
+}
+
+#rejestr a{
+    color: white;
+    background-color: #4CAF50;
+    border: 7px solid #4CAF50;
+    border-radius: 20px;
+}
+#baner{
+    width: 100%;
+    height: auto;
+    margin: 7px;
+}
+#imgBaner{
+    width: 100%;
+    height: auto;
+}
+.top-right{
+    width: 98%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+}
+.top-right form{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+.szukBut{
+    background: url(pliki/lupka.png);
+    width: 30px;
+    height: 27px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.nav-right{
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+#kosz{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.nav-right a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 10px;
+    row-gap: 20px;
+    margin-bottom: 15px;
+}
+.nag{
+    width: 100%;
+    height: 15px;
+    font-weight: bold;
+    margin: 0 0 0 5%;
+}
+#newest-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.product{
+    display: inline-block;
+    width: 220px;
+    height: 330px;  
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.product a{
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-decoration: none;
+    width: 100%;
+    height: 90%;
+}
+.new{
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 1px solid red;
+}
+.foto{
+}
+.product-name{
+    width:100%;
+    height:14%;
+    text-align: center;
+}
+.product-price{
+    width:100%;
+    height:7%;
+    text-align: center;
+}
+.do-koszyka{
+    color: white;
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 20px;
+    font-size: 90%;
+    cursor: pointer;
+}
+.product button{
+    height: 100%;
+    font-weight: bold;
+}
+.product form{
+    height: 29px;
+    margin: 0 0 0px 22%;
+}
+.form-class{
+}
+#featured-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+/*
+    Początek stopki DESKTOP
+*/
+
+#stopka{
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#info-stopki{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 5%;
+    row-gap: 3%;
+    margin: 15px;
+    width: 90%;
+    background-color: black;
+    color: white;
+}
+.stopkaInfoNag{
+    font-weight: bold;
+}
+.stopka-element{
+    flex-shrink:10;
+}
+#stopka a{
+    color: white;
+    text-decoration: none;
+}
+.stopka-element span{
+    padding-top: 10px;
+}
+/*
+    Początek stopki MOBILE
+*/
+#stopkaM{
+}
+.stopka-elementM{
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border: 5px solid black;
+    text-align: center;
+    width: 100%;    
+    background-color: black;
+    color: white;
+}
+.stopka-elementM a{
+    text-decoration: none;
+    width: 100%;    
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+}
+.stopka-elementM a .arr{
+    margin-right: 15px;
+    float: right;
+}
+.nagA{
+    font-size: 3vh;
+    font-weight: bold;
+}
+#help{
+    display: none;
+}
+#help:target{
+    display: block;
+    width: 100%;    
+}
+#mojeKonto{
+    display: none;
+}
+#mojeKonto:target{
+    display: block;
+}
+#platDost{
+    display: none;
+}
+#platDost:target{
+    display: block;
+}
+#oNas{
+    display: none;
+}
+#oNas:target{
+    display: block;
+}
+
+.stopkaInfoNagM{
+    display: none;
+}
+
+#producer{
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 15px;
+}
+
+
+}

@@ -1,0 +1,91 @@
+body{
+    background-color: #D9D9D9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#obszar-log{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+}
+
+#info-zacheta{
+    font-size: 3em;
+    font-weight: bold
+}
+#info-gdzie{
+    font-size: 1.5em;
+}
+
+
+@media only screen and (max-width: 523px)
+{
+
+input{
+   width: 100%;
+   height: 72px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+}
+
+@media only screen and (min-width: 524px)
+{
+
+input{
+   width: 100%;
+   height: 72px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+}
+.btnLog{
+    float:right;
+    width: 50%;
+    height: 30%;    
+    font-size: 3vh;
+    color: white;
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a{
+    float:right;
+    color: red;
+    font-size: 1.5vh;
+}
+
+
+
+
+
+
+
+
+
+#producerLog{
+    position: absolute;
+    bottom: 0px;
+    width: 99%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
